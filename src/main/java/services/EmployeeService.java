@@ -84,11 +84,6 @@ public class EmployeeService extends ServiceBase {
      * @param code 社員番号
      * @return 該当するデータの件数
      */
-    /**
-     * 社員番号を条件に該当するデータの件数を取得し、返却する
-     * @param code 社員番号
-     * @return 該当するデータの件数
-     */
     public long countByCode(String code) {
 
         //指定した社員番号を保持する従業員の件数を取得する
@@ -99,7 +94,7 @@ public class EmployeeService extends ServiceBase {
     }
 
     /**
-     * 画面から入力された従業員の登録内容を元にデータを１件作成し、従業員テーブルに登録する
+     * 画面から入力された従業員の登録内容を元にデータを1件作成し、従業員テーブルに登録する
      * @param ev 画面から入力された従業員の登録内容
      * @param pepper pepper文字列
      * @return バリデーションや登録処理中に発生したエラーのリスト
@@ -130,7 +125,7 @@ public class EmployeeService extends ServiceBase {
     /**
      * 画面から入力された従業員の更新内容を元にデータを1件作成し、従業員テーブルを更新する
      * @param ev 画面から入力された従業員の登録内容
-     * @param epepper pepper文字列
+     * @param pepper pepper文字列
      * @return バリデーションや更新処理中に発生したエラーのリスト
      */
     public List<String> update(EmployeeView ev, String pepper) {

@@ -1,7 +1,8 @@
 package constants;
 
 /**
- * リクエストパラメーターの変数名、変数値、jspファイルの名前等画面遷移に関わる値を定義するEnunクラス
+ * リクエストパラメーターの変数名、変数値、jspファイルの名前等画面遷移に関わる値を定義するEnumクラス
+ *
  */
 
 public enum ForwardConst {
@@ -24,7 +25,7 @@ public enum ForwardConst {
     CMD_NEW("entryNew"),
     CMD_CREATE("create"),
     CMD_EDIT("edit"),
-    CMD_UPDATE("updatet"),
+    CMD_UPDATE("update"),
     CMD_DESTROY("destroy"),
 
     //jsp
@@ -36,10 +37,10 @@ public enum ForwardConst {
     FW_EMP_SHOW("employees/show"),
     FW_EMP_NEW("employees/new"),
     FW_EMP_EDIT("employees/edit"),
-    FW_REP_INDEX("report/index"),
-    FW_REP_SHOW("report/show"),
-    FW_REP_NEW("report/new"),
-    FW_REP_EDIT("report/edit");
+    FW_REP_INDEX("reports/index"),
+    FW_REP_SHOW("reports/show"),
+    FW_REP_NEW("reports/new"),
+    FW_REP_EDIT("reports/edit");
 
     /**
      * 文字列
