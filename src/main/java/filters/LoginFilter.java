@@ -76,7 +76,7 @@ public class LoginFilter implements Filter {
                 } else {
                     //ログイン済
                     if (ForwardConst.ACT_AUTH.getValue().equals(action)) {
-                        //認証系Actionを行おうとしている場合
+                        //認証Actionを行おうとしている場合
 
                         if(ForwardConst.CMD_SHOW_LOGIN.getValue().equals(command)) {
                             //ログインページの表示はトップ画面にリダイレクト
